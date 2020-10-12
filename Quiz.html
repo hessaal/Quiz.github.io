@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Quiz</title>
+	<link rel="stylesheet" type="text/css" href="Quiz.css">
+	<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
+</head>
+<body>
+ <div class="container">
+  <h1> Dynamic Quiz </h1>
+  <div id="1" class="Question">
+  	<h3>Question 1:</h3>
+  <p>What is 2*5?</p>
+  <input type="radio" name="anQ1" value="2"> 2 <br>
+  <input type="radio" name="anQ1" value="5"> 5 <br>
+  <input type="radio" name="anQ1" value="10"> 10 <br>
+  <input type="radio" name="anQ1" value="15"> 15 <br>
+  <input type="radio" name="anQ1" value="20"> 20 <br>
+  <br>
+  <div class="buttons">
+  <button id="first">Next</button>
+  </div>
+  </div>
+   <div id="2" class="Question turn">
+  	<h3>Question 2:</h3>
+  <p>What is 3*6?</p>
+  <input type="radio" id="an1" name="anQ2" value="3"> 3 <br>
+  <input type="radio" id="an2" name="anQ2" value="6"> 6 <br>
+  <input type="radio" id="an3" name="anQ2" value="9"> 9 <br>
+  <input type="radio" id="an4" name="anQ2" value="12"> 12 <br>
+  <input type="radio" id="an5" name="anQ2" value="18"> 18 <br>
+  <br>
+  <div class="buttons">
+  <button id="prev">Prev</button>
+  <button id="next">Next</button>
+  </div>
+  </div>
+  <div id="3" class="Question turn">
+  	<h3>Question 3:</h3>
+  <p>What is 8*9?</p>
+  <input type="radio" id="an1" name="anQ3" value="72"> 72 <br>
+  <input type="radio" id="an2" name="anQ3" value="99"> 99 <br>
+  <input type="radio" id="an3" name="anQ3" value="108"> 108 <br>
+  <input type="radio" id="an4" name="anQ3" value="134"> 134 <br>
+  <input type="radio" id="an5" name="anQ3" value="156"> 156 <br>
+  <br>
+  <div class="buttons">
+  <button id="prev">Prev</button>
+  <button id="next">Next</button>
+  </div> 
+  </div>
+   <div id="4" class="Question turn">
+  	<h3>Question 4:</h3>
+  <p>What is 1*7?</p>
+  <input type="radio" id="an1" name="anQ4" value="4"> 4 <br>
+  <input type="radio" id="an2" name="anQ4" value="5"> 5 <br>
+  <input type="radio" id="an3" name="anQ4" value="6"> 6 <br>
+  <input type="radio" id="an4" name="anQ4" value="7"> 7 <br>
+  <input type="radio" id="an5" name="anQ4" value="8"> 8 <br>
+  <br>
+  <div class="buttons">
+  <button id="prev">Prev</button>
+  <button id="next">Next</button>
+  </div>
+  </div>
+   <div id="5" class="Question turn">
+  	<h3>Question 5:</h3>
+  <p>What is 8*8?</p>
+  <input type="radio" id="an1" name="anQ5" value="20"> 20 <br>
+  <input type="radio" id="an2" name="anQ5" value="30"> 30 <br>
+  <input type="radio" id="an3" name="anQ5" value="40"> 40 <br>
+  <input type="radio" id="an4" name="anQ5" value="50"> 50 <br>
+  <input type="radio" id="an5" name="anQ5" value="64"> 64 <br>
+  <br>
+  <div class="buttons">
+  <button id="prev">Prev</button>
+  <button id="next">Next</button>
+  </div>
+  </div>
+  <div id="6" class="Question turn">
+  <p>You got <span>5</span> questions out of 5 right !!!</p>
+  <div class="buttons">
+  <button id="startOver">Start Over</button>
+  </div>
+  </div>
+</div>
+<script type="text/javascript" src="Quiz.js"></script>
+</body>
+</html>
